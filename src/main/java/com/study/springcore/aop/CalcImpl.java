@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class CalcImpl implements Calc {
 
 	@Override
-	public Integer add(int x, int y) {
+	public Integer add(Integer x, Integer y) {
 		Integer result = x + y;
 		return result;
 	}
