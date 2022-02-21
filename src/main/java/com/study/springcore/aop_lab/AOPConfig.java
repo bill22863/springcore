@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
-//使用Java配置來替代xml
+//使用Java配置來替代.xml
 @Configuration //此類別為配置檔
 @EnableAspectJAutoProxy //啟動AOP自動代理器
 @ComponentScan //啟動自動掃瞄

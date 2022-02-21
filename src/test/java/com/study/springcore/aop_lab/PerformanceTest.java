@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class PerformanceTest {
 
 	public static void main(String[] args) {
+		// Java 配置
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(AOPConfig.class);
 		Performance performance = ctx.getBean("dancer", Performance.class);
 		try {
